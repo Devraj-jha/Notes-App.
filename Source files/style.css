@@ -1,4 +1,4 @@
- body {
+        body {
             margin: 0;
             padding: 0;
             display: flex;
@@ -59,6 +59,7 @@
         .text-area-container {
             flex: 1;
             padding: 20px;
+            background-color: #87CEFA;
         }
         
         #text-area {
@@ -71,11 +72,13 @@
             resize: none;
         }
         
+        /* Hidden state */
         .dock.hidden {
             width: 0;
             border-right: none;
         }
         
+        /* Always visible toggle when dock is hidden */
         .hidden-toggle {
             position: absolute;
             left: 0;
